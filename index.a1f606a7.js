@@ -1,0 +1,2 @@
+!function(){var t=document.querySelector(".siteBar-category-list");fetch("https://books-backend.p.goit.global/books/category-list").then((function(t){return t.json()})).then((function(e){var n=e.map((function(t){return e=t.list_name,'<li class="siteBar-category-item">'.concat(e,"</li>");var e})).join("");console.log(e),t.insertAdjacentHTML("beforeend",n)}))}();
+//# sourceMappingURL=index.a1f606a7.js.map
